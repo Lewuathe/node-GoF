@@ -24,6 +24,7 @@ Factory.factory = function (type) {
     return newObj;
 };
 
+
 Factory.Class1 = function () {
     this.name = 'Class1';
 };
@@ -36,6 +37,7 @@ Factory.Class3 = function () {
     this.name = 'Class3';
 };
 
+/* Test
 var cls1 = Factory.factory('Class1');
 console.log(cls1.commonMethod());
 
@@ -44,3 +46,4 @@ console.log(cls2.commonMethod());
 
 var cls3 = Factory.factory('Class3');
 console.log(cls3.commonMethod());
+*/
